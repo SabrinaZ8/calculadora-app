@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+:root {
+        --toggle-bg-red-1:hsl(6, 63%, 50%);
+        --text-white: hsl(0, 0%, 100%);
+        --orange-2: hsl(25, 98%, 40%);
+        --cyan-toggle-3: hsl(176, 100%, 44%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+body {
+    font-size: 32px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.7s;
+}
+main{
+    height: auto;
+    width: 300px;
+}
+.div-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    align-items: last baseline;
+}
+.p-123 p{
+    letter-spacing: 1.5px;
+    margin: 4px 0;
+    text-align: center;
+}
+.bullets {
+    width: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18px;
+    border-radius: 20px;
+    font-size: 0;
+}
+
+ #theme-1[type = "radio"]:checked {
+    background-color: var(--toggle-bg-red-1);
+}
+#theme-2[type = "radio"]:checked {
+    background-color: var(--orange-2);
+}
+#theme-3[type = "radio"]:checked {
+    background-color: var(--cyan-toggle-3);
+}
+
+.toggle-theme[type = "radio"] {
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+} 
+.theme {
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-between;
+    width: 80px;
+}
+.theme p {
+     font-size: 10px;
+     font-weight: 600;
+}
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-radius: 5px;
+    font-size: 1.7em;
+    width: 100%;
+    height: 60px;
+}
+.body-calc {
+    border-radius: 5px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 10px;
+    height: 82%;
+    padding: 15px;
+    margin-top:  15px;;
+}
+ .btns {
+    border: none;
+    font-weight: 900;
+    border-radius: 5px;
+    height: 30px; 
+    width: 60px; 
+ } 
+#btn-reset {
+    grid-column-start: 1;
+    grid-column-end: 3 ;
+    width: auto;
+}
+#btn-igual {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    width: auto;
+    color: var(--text-white);
+}
+#btn-igual, #btn-reset, #del {
+    color: var(--text-white);
+    font-weight: 500;
+}
+
+.btns:hover, .toggle-theme:hover {
+    filter: brightness(160%);
+}
