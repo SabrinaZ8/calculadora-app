@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/profile/BynnZ8)
 - Live Site URL: [Calculator app](https://calculadora-app-lac.vercel.app/)
 
 ## My process
