@@ -43,6 +43,6 @@ Users should be able to:
 ## Author
 
 - Website - [Shortly](#)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/BynnZ8)
+- Frontend Mentor - [@BynnZ8](https://www.frontendmentor.io/profile/BynnZ8)
 - LinkedIn - [Sabrina Souza](https://www.linkedin.com/in/sabrina-souza-dev/)
 
