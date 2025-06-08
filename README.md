@@ -42,7 +42,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Shortly](#)
-- Frontend Mentor - [@BynnZ8](https://www.frontendmentor.io/profile/BynnZ8)
+- Frontend Mentor - [@SabrinaZ8](https://www.frontendmentor.io/profile/SabrinaZ8)
+- Portfolio - [Sabrina Souza](https://portfolio-sabrina-souza.vercel.app/)
 - LinkedIn - [Sabrina Souza](https://www.linkedin.com/in/sabrina-souza-dev/)
 
